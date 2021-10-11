@@ -1,0 +1,141 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_import_employee_timesheet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-26 14:10+0000\n"
+"PO-Revision-Date: 2021-05-26 14:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bi_import_employee_timesheet
+#: code:addons/bi_import_employee_timesheet/wizard/import_employee_timesheet.py:0
+#, python-format
+msgid "\"%s\" Project is not found in system !"
+msgstr "\"%s\" Le projet n'est pas trouvé dans le système!"
+
+#. module: bi_import_employee_timesheet
+#: code:addons/bi_import_employee_timesheet/wizard/import_employee_timesheet.py:0
+#, python-format
+msgid "\"%s\" Task is not found in system !"
+msgstr "\"%s\" La tâche est introuvable dans le système!"
+
+#. module: bi_import_employee_timesheet
+#: code:addons/bi_import_employee_timesheet/wizard/import_employee_timesheet.py:0
+#, python-format
+msgid "\"%s\" Task not in \"%s\" Project !"
+msgstr "\"%s\" Tâche absente \"%s\" Projet !"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields.selection,name:bi_import_employee_timesheet.selection__import_employee_timesheet__file_type__csv
+msgid "CSV File"
+msgstr "Fichier CSV"
+
+#. module: bi_import_employee_timesheet
+#: model_terms:ir.ui.view,arch_db:bi_import_employee_timesheet.import_employee_timesheet_form_view
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields,field_description:bi_import_employee_timesheet.field_import_employee_timesheet__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields,field_description:bi_import_employee_timesheet.field_import_employee_timesheet__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields,field_description:bi_import_employee_timesheet.field_import_employee_timesheet__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields,field_description:bi_import_employee_timesheet.field_import_employee_timesheet__file_type
+msgid "File Type"
+msgstr "Type de fichier"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields,field_description:bi_import_employee_timesheet.field_import_employee_timesheet__id
+msgid "ID"
+msgstr "identifiant"
+
+#. module: bi_import_employee_timesheet
+#: model_terms:ir.ui.view,arch_db:bi_import_employee_timesheet.import_employee_timesheet_form_view
+msgid "Import"
+msgstr "Importer"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.actions.act_window,name:bi_import_employee_timesheet.import_employee_timesheet_wizard_action
+#: model:ir.model,name:bi_import_employee_timesheet.model_import_employee_timesheet
+#: model_terms:ir.ui.view,arch_db:bi_import_employee_timesheet.import_employee_timesheet_form_view
+msgid "Import Employee Timesheet"
+msgstr "Importer la feuille de temps des employés"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.ui.menu,name:bi_import_employee_timesheet.import_employee_timesheet_menu
+msgid "Import Timesheets"
+msgstr "Importer des feuilles de temps"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields,field_description:bi_import_employee_timesheet.field_import_employee_timesheet____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields,field_description:bi_import_employee_timesheet.field_import_employee_timesheet__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields,field_description:bi_import_employee_timesheet.field_import_employee_timesheet__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: bi_import_employee_timesheet
+#: code:addons/bi_import_employee_timesheet/wizard/import_employee_timesheet.py:0
+#, python-format
+msgid "Please Enter Hours in Float !"
+msgstr "Veuillez saisir les heures en flottant!"
+
+#. module: bi_import_employee_timesheet
+#: code:addons/bi_import_employee_timesheet/wizard/import_employee_timesheet.py:0
+#: code:addons/bi_import_employee_timesheet/wizard/import_employee_timesheet.py:0
+#, python-format
+msgid "Please Select Valid File Format !"
+msgstr "Veuillez sélectionner un format de fichier valide!"
+
+#. module: bi_import_employee_timesheet
+#: code:addons/bi_import_employee_timesheet/wizard/import_employee_timesheet.py:0
+#, python-format
+msgid "Please Upload File to Import Timesheet !"
+msgstr "Veuillez télécharger le fichier pour importer la feuille de temps!"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields,field_description:bi_import_employee_timesheet.field_import_employee_timesheet__file
+msgid "Upload File"
+msgstr "Téléverser un fichier"
+
+#. module: bi_import_employee_timesheet
+#: model_terms:ir.ui.view,arch_db:bi_import_employee_timesheet.import_employee_timesheet_form_view
+msgid "Upload Your File"
+msgstr "Téléchargez votre fichier"
+
+#. module: bi_import_employee_timesheet
+#: code:addons/bi_import_employee_timesheet/wizard/import_employee_timesheet.py:0
+#, python-format
+msgid "Wrong Date Format ! Date Should be in format YYYY/MM/DD"
+msgstr "Mauvais format de date! La date doit être au format AAAA / MM / JJ"
+
+#. module: bi_import_employee_timesheet
+#: model:ir.model.fields.selection,name:bi_import_employee_timesheet.selection__import_employee_timesheet__file_type__xls
+msgid "XLS File"
+msgstr "Fichier XLS"
